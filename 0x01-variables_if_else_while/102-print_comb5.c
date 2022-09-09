@@ -19,7 +19,7 @@ int main(void)
 		while (j < 58)
 		{
 			m = j + 1;
-			k = 1;
+			k = i;
 			while (k < 58)
 			{
 				while (m < 58)
