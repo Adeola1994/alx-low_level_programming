@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_to_98 - check main
+ * print_to_98 - Check Holberton
  * @n: A input integer
  * Description: function that prints all natural numbers
  * from n to 98, followed by a new line.
@@ -20,7 +20,7 @@ void print_to_98(int n)
 				continue;
 			printf(", ");
 		}
-		printf('\n');
+		printf("\n");
 	}
 	else
 	{
