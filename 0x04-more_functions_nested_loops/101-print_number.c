@@ -1,9 +1,13 @@
-#include "main.h"
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+int _putchar(char c);
 
 /**
- * print_number - prints a number
- * @n: params an integer
- * Return: returns nothing
+ * print_number - prints a number
+ * @n: params an integer
+ * Return: returns nothing
  */
 void print_number(int n)
 {
