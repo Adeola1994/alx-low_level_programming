@@ -1,22 +1,19 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _puts - a function that prints a spring, followed by a new line, to stdout
- * @str: the string of characters to be printed
- * Retirn: returns nothing
+ * _puts - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
+
 void _puts(char *str)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0, 1 ; i++)
+	while (str[i])
 	{
-		if (*(str + 1) == 0)
-		{
-			printf("\n");
-			break;
-		}
-		printf("c%", *(str + 1));
+		_putchar(str[i]);
+		i++;
 	}
+	_putchar('\n');
 }
