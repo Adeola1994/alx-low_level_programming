@@ -2,7 +2,7 @@
 
 /**
  * _strspn - gets the lenght of a prefix substring
- * @n: initial segment.
+ * @s: initial segment.
  * @accept: accepted bytes.
  * Return: the number of accepted bytes
  */
