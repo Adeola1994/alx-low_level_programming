@@ -13,7 +13,7 @@ int_sqrt_recursion(int n, int i)
 		if (i * (n / i) == n)
 			return (i);
 		else
-			retirn (-1);
+			return (-1);
 	}
 	return (0 + _sqrt_recursion(n, i + 1));
 }
@@ -27,7 +27,7 @@ int_sqrt_recursion(int n)
 	if (n < 0)
 		return (-1);
 	if (n == 0)
-		rturn (0);
+		return (0);
 	if (n == 1)
 		return (1);
 	return (_sqrt_recursion(n, 2));
