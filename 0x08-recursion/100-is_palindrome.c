@@ -5,7 +5,7 @@
  * @s: string
  * Return: the lenght of a string
  */
-int_strlen_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
 		return (0);
@@ -42,4 +42,3 @@ int is_palindrome(char *s)
 		return (1);
 	return (comparator(s, 0, _strlen_recursion(s) - 1));
 }
-
