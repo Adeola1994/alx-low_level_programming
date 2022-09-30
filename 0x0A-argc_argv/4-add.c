@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		sum += strtol (argv[i], &ptr, 10);
+		sum += strtol(argv[i], &ptr, 10);
 		if (*ptr != 0)
 		{
 			printf("Error\n");
