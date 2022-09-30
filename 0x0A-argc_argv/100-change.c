@@ -35,12 +35,12 @@ int main(int argc, char *argv[])
 	nickels_5 = cents / 5;
 	cents = cents - (nickels_5 * 5);
 
-	coins_2 = cents / 2;
-	cents = cents - (coins_2 * 2);
+	coin_2 = cents / 2;
+	cents = cents - (coin_2 * 2);
 
-	pennies_1 = cwnts / 1;
+	pennies_1 = cents / 1;
 
-	change = quarters_25 + dimes_10 + nickels_5 + coins_2 + pennies_1;
+change = quarters_25 + dimes_10 + nickels_5 + coin_2 + pennies_1;
 	printf("%d\n", change);
 	return (0);
 }
