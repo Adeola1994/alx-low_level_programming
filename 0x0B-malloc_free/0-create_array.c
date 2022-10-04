@@ -2,7 +2,7 @@
 #include <stdlib>
 /**
  *
- * create_array - creates an array of chars
+ * create_array - a function that creates an array of chars
  * @size: size of array
  * @c: storaged char
  *
