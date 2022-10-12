@@ -1,4 +1,4 @@
-#include "3-CALC.h"
+#include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
 
