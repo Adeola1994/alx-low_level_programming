@@ -5,7 +5,7 @@
  * struct op - Struct op
  *
  * @op: the operator
- * @of: the function associatef
+ * @f: the function associate
  */
 typedef struct op
 {
