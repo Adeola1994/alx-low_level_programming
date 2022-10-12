@@ -20,4 +20,4 @@ int op_div(int a, int b);
 int op_mid(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
-endif /*3-CALC_H*/
+#endif /*3-CALC_H*/
