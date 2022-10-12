@@ -7,7 +7,7 @@
  * @array: the array to be operated on
  * @size: the size of the array
  * @action: the action should performed on each array element
- * /
+ */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
