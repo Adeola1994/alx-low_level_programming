@@ -1,14 +1,13 @@
 #include <stdio.h>
- #include <stdlib.h>
+#include <stdlib.h>
 
  /**
-  * main - a program that prints the opcodes
-  * @argc: number of commandline arguments
-  * @argv: array of strings containing commsndline of arguments
-  * Return: returns 0
+  * main - a program that prints its own opcodes
+  * @argc: number of command-line arguments
+  * @argv: array of strings that contain each  command-line arguments
+  * Return: returns 0 (Success)
   */
-
- int main(int argc, char *argv[])
+int main(int argc, char *argv[])
  {
          int i, n;
          char *str;
