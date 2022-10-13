@@ -4,10 +4,12 @@
 #include "3-calc.h"
 
 /**
- * main - performs simpls operation (calculator)
- * @argc: number of arguments
- * @argv: array of arguments
- * Return: 0 (Always)
+ * main - a program that performs simple arithmetic 
+ * operations by calling helper functions
+ * @argc: the number of command-line arguments
+ * @argv: an array of strings containing one cmd-line 
+ * argument per string
+ * Return: returns 0 (success)
  */
 
 int main(int argc, char *argv[])

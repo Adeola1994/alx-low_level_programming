@@ -1,8 +1,8 @@
 /**
- * op_add - sum of two numbers
- * @a: first integer
- * @b: second integer
- * Return: sum (integer)
+ * op_add - a function that adds two ints
+ * @a: int one
+ * @b: int two
+ * Return: returns the sum of a and b
  */
 
 int op_add(int a, int b)
@@ -11,10 +11,10 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - difference between two numbers
- * @a: first integer
- * @b: second integer
- * Return: difference (integer)
+ * op_sub - a function that subtracts two ints
+ * @a: int one
+ * @b: int two
+ * Return: returns the difference of a and b
  */
 
 int op_sub(int a, int b)
@@ -23,10 +23,10 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - product of two numbers
- * @a: first integer
- * @b: second integer
- * Return: product (integer)
+ * op_mul - a function that multiplies two ints
+ * @a: int one
+ * @b: int two
+ * Return: returns the product of a and b
  */
 
 int op_mul(int a, int b)
@@ -35,10 +35,10 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - quotient of two numbers
- * @a: first integer (dividend)
- * @b: second integer (divisor)
- * Return: quotient (integer)
+ * op_div - a function that divides two ints
+ * @a: int one
+ * @b: int two
+ * Return: returns the result of the division of a by b
  */
 
 int op_div(int a, int b)
@@ -47,13 +47,14 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - modulo (remainder)
- * @a: first integer (dividend)
- * @b: second integer (divisor)
- * Return: remainder of division (integer)
+ * op_mod - a function that gets the remainder of the 
+ * division of two ints
+ * @a: int one
+ * @b: int two
+ * Return: returns the remainder of the division of a by b
  */
 
 int op_mod(int a, int b)
 {
-		return (a % b);
+	return (a % b);
 }

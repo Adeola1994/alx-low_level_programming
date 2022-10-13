@@ -4,9 +4,10 @@
 #include "3-calc.h"
 
 /**
- * get_op_func - find operation function
- * @s: operator (+, -, *, /, %)
- * Return: function pointer
+ * get_op_func - a function that selects the right function to perform
+ * the required operation
+ * @s: the operator passed in form of string
+ * Return: returns a pointer to the right function
  */
 
 int (*get_op_func(char *s))(int, int)
@@ -30,5 +31,6 @@ int (*get_op_func(char *s))(int, int)
 		}
 		i++;
 	}
+
 	return (NULL);
 }
