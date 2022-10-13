@@ -7,8 +7,7 @@
  * main - a program that performs simple arithmetic 
  * operations by calling helper functions
  * @argc: the number of command-line arguments
- * @argv: an array of strings containing one cmd-line 
- * argument per string
+ * @argv: array of strings containing cmd-line arguments
  * Return: returns 0 (success)
  */
 
