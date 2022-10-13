@@ -36,4 +36,4 @@ int main(int argc, char *argv[])
 		printf("%2hhx\n", str[i]);
 	}
 	return (0);
-} 
+}  
