@@ -4,10 +4,9 @@
 /**
  * main - a program that prints its own opcodes
  * @argc: number of command-line arguments
- * @argv: array of strings that contain each command-line arguements
+ * @argv: array of strings that contain each command-line argument
  * Return: returns 0 (Success)
  */
-
 int main(int argc, char *argv[])
 {
 	int i, n;
@@ -37,4 +36,4 @@ int main(int argc, char *argv[])
 		printf("%02hhx ", str[i]);
 	}
 	return (0);
-}  
+}
