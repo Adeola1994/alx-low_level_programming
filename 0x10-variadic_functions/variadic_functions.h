@@ -3,7 +3,6 @@
 #define null (void *)0
 #define TRUE 1
 #define FALSE 0
-#define is ==
 #include <stdarg.h>
 
 
