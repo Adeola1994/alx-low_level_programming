@@ -37,6 +37,7 @@ int main(int argc, char *argv[])
 
 		ptr = get_op_func(argv[2]);
 		result = ptr(num1, num2);
+
 		printf("%d\n", result);
 
 		return (0);
