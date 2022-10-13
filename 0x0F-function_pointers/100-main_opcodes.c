@@ -7,6 +7,7 @@
  * @argv: array of strings that contain each command-line arguements
  * Return: returns 0 (Success)
  */
+
 int main(int argc, char *argv[])
 {
 	int i, n;
